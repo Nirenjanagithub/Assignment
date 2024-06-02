@@ -5,8 +5,11 @@ let displayText;
 
 
 
+
+
 function display(){
 let inputvalue=document.getElementById("input-value").value;
+inputvalue = inputvalue.charAt(0).toUpperCase() + inputvalue.slice(1);
 
 
     const logTime = new Date();
@@ -25,11 +28,11 @@ let inputvalue=document.getElementById("input-value").value;
     
     }
     else{
-    displayText="Hey"+ inputvalue+" you are running on TURTLE"+`<img class="img-style"src="turtle.png" width="4%">`+" time!!"
+    displayText="Hey"+ inputvalue +" you are running on TURTLE"+`<img class="img-style"src="turtle.png" width="4%">`+" time!!"
     }
 
     displayTime.innerHTML=displayText;
     meetDeet.innerHTML=`<a href="https://meet.google.com/stq-hqgb-zem?hs=224"  target="_blank" class="style"><img src="login-.png" width="4%">Today's Adventure portal</a>`
- 
+    
 
 }
