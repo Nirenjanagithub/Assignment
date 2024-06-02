@@ -76,7 +76,14 @@ span{
     
 }
 #timing{
-    font-size: 15px;
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(179, 72, 5);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+
 }
 #meetdeets{
     display: flex;
@@ -91,22 +98,17 @@ span{
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 10px;
     font-size: x-large;
     text-decoration: none;
     
 }
-.style-1{
-    color: rgb(244, 204, 155);
+.img-style{
+    width: 3%;
+    height: 40px;
     display: flex;
-    justify-content: center;
-    text-align: center;
     align-items: center;
-    font: bold;
-    text-decoration: none;
-    font-size: larger;
-}
-.check{
-    padding-left: 5px;
+    justify-content: center;
+    padding-left: 10px;
 }
