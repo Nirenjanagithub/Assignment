@@ -28,7 +28,7 @@ let inputvalue=document.getElementById("input-value").value;
     }
 
     displayTime.innerText=displayText;
-    meetDeet.innerHTML=`<a href="https://meet.google.com/stq-hqgb-zem?hs=224"  target="_blank" class="style">Today's Adventure portal</a>`
+    meetDeet.innerHTML=`<a href="https://meet.google.com/stq-hqgb-zem?hs=224"  target="_blank" class="style"><img src="login-.png" width="4%">Today's Adventure portal</a>`
  
 
 }
